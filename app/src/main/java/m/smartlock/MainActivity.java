@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 .enableAutoManage(this, this)
                 .addApi(Auth.CREDENTIALS_API)
                 .build();
+        Log.d("App", "Activity created");
     }
 
     @Override
